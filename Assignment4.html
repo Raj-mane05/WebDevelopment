@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML List Examples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 800px;
+        }
+        .list-container {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML List Tags Demonstration</h1>
+    
+    <div class="list-container">
+        <h2>Unordered List (Bullet Points)</h2>
+        <ul>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item
+                <ul>
+                    <li>Nested item 1</li>
+                    <li>Nested item 2</li>
+                </ul>
+            </li>
+            <li>Fourth item</li>
+        </ul>
+    </div>
+    
+    <div class="list-container">
+        <h2>Ordered List (Numbered)</h2>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item
+                <ol type="a">
+                    <li>Nested item a</li>
+                    <li>Nested item b</li>
+                </ol>
+            </li>
+            <li>Fourth item</li>
+        </ol>
+    </div>
+    
+    <div class="list-container">
+        <h2>Definition List</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+            <dt>JavaScript</dt>
+            <dd>A programming language for the web</dd>
+        </dl>
+    </div>
+</body>
+</html>
